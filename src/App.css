@@ -1,7 +1,40 @@
 .App {
   text-align: center;
 }
-
+body{
+  font-family: 'nanumsquare';
+}
+.balck-nav{
+  background: black;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 20px;
+  font-weight: 600;
+}
+.list{
+  margin-top: 30px;
+  text-align: left;
+  padding: 0 20px 0 20px;
+}
+.modal{
+  padding: 20px;
+  background: #eee;
+  margin-top: 20px;
+}
+.movies{
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.movie-titles{
+  flex-grow: 1;
+}.movie-years{
+  font-size: 14px;
+  color: royalblue;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
