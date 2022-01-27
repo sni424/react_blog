@@ -1,5 +1,6 @@
 import MovieList from "./pages/MovieList";
 import Users from "./pages/Users";
+import UsersInfo from "./pages/UserInfo";
 
 export default [
     {
@@ -9,5 +10,9 @@ export default [
     {
         path: "/users",
         componenet: Users,
+    },
+    {
+        path: "/users/:id",
+        componenet: UsersInfo,
     },
 ];
